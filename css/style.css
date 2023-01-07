@@ -1,0 +1,53 @@
+main{
+    display: grid;
+    background-color: #eee;
+    margin: 20px 0;
+}
+main > *{
+    justify-content: center;
+}
+#header{
+    padding: 0 300px;
+    text-align: center;
+}
+#header #title{
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+#img-div{
+    display: grid;
+    flex-direction: row;
+    background-color: white;
+    margin: 0 20px;
+}
+#image{
+    justify-content: center;
+    align-items: center;
+    display:block;
+    max-width:100%;
+}
+#tribute-info {
+    padding: 0 300px;
+    justify-content: center;
+}
+#tribute-info ul li {
+    margin: 15px 0;
+}
+
+main > p{
+    margin: 0 300px;
+}
+main  p em span{
+    display: block;
+    margin: 20px 0;
+}
+main > #quote{
+    margin: 50px 200px;
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+}
+#tribute-info h3{
+    text-align: center;
+}
